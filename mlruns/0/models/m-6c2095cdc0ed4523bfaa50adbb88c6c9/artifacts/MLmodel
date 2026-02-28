@@ -1,0 +1,23 @@
+artifact_path: /home/ali/Documents/GitHub/project1/mlruns/0/models/m-6c2095cdc0ed4523bfaa50adbb88c6c9/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.10.12
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.2
+    skops_trusted_types: null
+mlflow_version: 3.10.0
+model_id: m-6c2095cdc0ed4523bfaa50adbb88c6c9
+model_size_bytes: 913
+model_uuid: m-6c2095cdc0ed4523bfaa50adbb88c6c9
+prompts: null
+run_id: b4c741b0b01e46aca7b9dbfcafec16ee
+utc_time_created: '2026-02-28 03:09:10.917443'
