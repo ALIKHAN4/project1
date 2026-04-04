@@ -21,6 +21,6 @@ jobs:
           key: ${{ secrets.EC2_SSH_PRIVATE_KEY }}
           port: 22
           script: |
-            cd ~/projectone
+            cd ~/project1
             git pull 
             docker restart edb6a63f5628
